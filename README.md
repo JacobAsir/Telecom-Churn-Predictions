@@ -1,11 +1,14 @@
-# Telecom Churn Prediction
+# Telecom Churn
 
 ## Problem Statement
-In the telecommunications industry, customer retention is crucial due to the high rate of churn. Identifying and retaining high-value customers has become a primary business goal, considering the substantial cost difference between acquiring new customers and retaining existing ones.
 
-## Goals and Objectives
-- Define high-value customers and predict churn specifically among this segment.
-- Develop models to forecast churn, serving the dual purpose of predicting potential churn and identifying key predictors of churn.
+In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition. For many incumbent operators, retaining high profitable customers is the number one business goal. To reduce customer churn, telecom companies need to predict which customers are at high risk of churn.
+
+## Goals and Objective
+Define high-value customers and predict churn only on high-value customers
+Build models to predict churn. The predictive model will serve two purposes:
+It will be used to predict whether a high-value customer will churn or not, in near future
+identify important variables that are strong predictors of churn
 
 ## Solution Overview
 I created a Telecom Churn Prediction Model using Logistic Regression, a supervised learning algorithm.
